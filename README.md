@@ -26,19 +26,18 @@ Thank you for the opportunity to contribute to this project it was fun and excit
     - in app/build.gradle->Changed  GradleException to FileNotFoundException, 
     - Updated distributionUrl version, 
     - AndroidManifest file was not having Internet Permission)
-
-2. Redesigned UI (added details screen),
-Refactored codebase (went minimal)
-Handled internet connection availability checks,
-Used functional programming concepts to properly propagate my exception handling
-Implemented infinity scroll.
+2. Redesigned UI 
+3. Refactored code and implemented clean architecture
+4. Handled internet connection availability checks
+5. Used functional programming concepts to properly propagate my exception handling 
+6. Implemented infinity scroll.
 
 ## Packages used
+flutter_screenutil (Screen Size)
 cached_network_image (cache network image)
 dartz (functional programming concepts)
 fluttertoast (exception notification as side-effect)
 freezed (aid union classes and inheritance)
 internet_connection_checker (internet connection checks)
 provider (snapshot cache)
-timeago (nice time-range display)
-PS. Couldn't go with TDD as limited time was a factor working on thi
+

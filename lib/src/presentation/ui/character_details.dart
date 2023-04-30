@@ -74,12 +74,7 @@ class CharacterDetail extends StatelessWidget {
                       character.location.name,
                       style: Theme.of(context).textTheme.bodyMedium,
                     ),
-                    // Text(
-                    //   timeago.format(character.created),
-                    //   style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                    //         color: ColorTheme.kSubtitleTextColor,
-                    //       ),
-                    // ),
+                   
                   ],
                 ),
                 Spacer(),

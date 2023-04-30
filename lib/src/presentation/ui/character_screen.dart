@@ -174,9 +174,9 @@ class _CharactersScreenState extends State<CharactersScreen> {
     return Scaffold(
       backgroundColor: ColorTheme.kBackgroundColor,
       appBar: AppBar(
-        title: Text('Rick & Morty'),
+        title: Text('Rick and Morty cartoon'),
        centerTitle: true,
-        
+        backgroundColor: ColorTheme.kSecondaryColor,
       ),
       body: BlocConsumer<MainPageBloc,
           BlocState<Failure<ExceptionMessage>, CharacterList>>(
