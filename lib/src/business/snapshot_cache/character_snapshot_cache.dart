@@ -1,5 +1,5 @@
 import 'package:casino_test/src/core/exceptions/exceptions.dart';
-import 'package:casino_test/src/data/models/character.dart';
+import 'package:casino_test/src/domain/models/character.dart';
 
 import 'package:flutter/material.dart';
 

@@ -3,7 +3,7 @@ import 'package:casino_test/src/presentation/widget/shared/custom_chip.dart';
 import 'package:flutter/material.dart';
 
 import '../../core/constants.dart';
-import '../../data/models/character.dart';
+import '../../domain/models/character.dart';
 import '../ui/character_details.dart';
 
 class DisplayCard extends StatelessWidget {

@@ -1,12 +1,12 @@
 import 'dart:async';
-import 'package:casino_test/src/data/models/character.dart';
+import 'package:casino_test/src/domain/models/character.dart';
 import 'package:casino_test/src/domain/repository/characters_repository.dart';
 import 'package:dartz/dartz.dart';
 
-import '../../../core/exceptions/exceptions.dart';
-import '../../../core/network/network_info.dart';
-import '../../form/get_page_form.dart';
-import '../remote_data/character_remote_data_source.dart';
+import '../../core/exceptions/exceptions.dart';
+import '../../core/network/network_info.dart';
+import '../../domain/form/get_page_form.dart';
+import '../data_source/character_remote_data_source.dart';
 
 class CharactersRepositoryImpl implements CharactersRepository {
   final NetworkInfo _networkInfo;

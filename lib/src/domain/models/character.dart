@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
 
-import 'package:casino_test/src/data/models/shared/location.dart';
-import 'package:casino_test/src/data/models/shared/page_info.dart';
+import 'package:casino_test/src/domain/models/shared/location.dart';
+import 'package:casino_test/src/domain/models/shared/page_info.dart';
 
 part 'character.g.dart';
 

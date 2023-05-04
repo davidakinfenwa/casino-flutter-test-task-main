@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../core/constants.dart';
 import '../../core/util/width_constraints.dart';
-import '../../data/models/character.dart';
+import '../../domain/models/character.dart';
 import '../widget/shared/cache_network_image.dart';
 import '../widget/shared/custom_chip.dart';
 

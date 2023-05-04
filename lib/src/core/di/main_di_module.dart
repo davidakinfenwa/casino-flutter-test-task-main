@@ -1,5 +1,5 @@
 
-import 'package:casino_test/src/data/data_source/repository_impl/characters_repository_impl.dart';
+import 'package:casino_test/src/data/repository_impl/characters_repository_impl.dart';
 import 'package:casino_test/src/domain/repository/characters_repository.dart';
 import 'package:get_it/get_it.dart';
 import 'package:http/http.dart';
@@ -8,7 +8,7 @@ import 'package:internet_connection_checker/internet_connection_checker.dart';
 
 import '../../business/bloc/main_bloc.dart';
 import '../../business/snapshot_cache/character_snapshot_cache.dart';
-import '../../data/data_source/remote_data/character_remote_data_source.dart';
+import '../../data/data_source/character_remote_data_source.dart';
 
 import '../network/network_info.dart';
 

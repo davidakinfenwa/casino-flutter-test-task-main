@@ -2,11 +2,11 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:casino_test/src/core/constants.dart';
-import 'package:casino_test/src/data/models/character.dart';
+import 'package:casino_test/src/domain/models/character.dart';
 import 'package:http/http.dart';
 
-import '../../../core/exceptions/exceptions.dart';
-import '../../form/get_page_form.dart';
+import '../../core/exceptions/exceptions.dart';
+import '../../domain/form/get_page_form.dart';
 
 abstract class CharacterRemoteDataSource {
   Future<CharacterList> getCharacters(

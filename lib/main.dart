@@ -3,7 +3,7 @@ import 'package:casino_test/src/business/snapshot_cache/character_snapshot_cache
 import 'package:casino_test/src/core/bloc/simple_bloc_observer.dart';
 import 'package:casino_test/src/core/constants.dart';
 import 'package:casino_test/src/core/di/main_di_module.dart';
-import 'package:casino_test/src/data/form/get_page_form.dart';
+import 'package:casino_test/src/domain/form/get_page_form.dart';
 import 'package:casino_test/src/presentation/ui/character_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

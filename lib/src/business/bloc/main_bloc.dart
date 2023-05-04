@@ -2,13 +2,13 @@ import 'package:bloc_concurrency/bloc_concurrency.dart';
 import 'package:casino_test/src/business/snapshot_cache/character_snapshot_cache.dart';
 
 import 'package:casino_test/src/core/exceptions/exceptions.dart';
-import 'package:casino_test/src/data/models/character.dart';
+import 'package:casino_test/src/domain/models/character.dart';
 import 'package:casino_test/src/domain/repository/characters_repository.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../../data/form/get_page_form.dart';
+import '../../domain/form/get_page_form.dart';
 import 'bloc_state/bloc_state.dart';
 
 part 'main_event.dart';
