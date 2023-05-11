@@ -62,10 +62,10 @@ class CharacterList extends Equatable {
 
   bool get isEmpty => characters.isEmpty;
 
-  const CharacterList._({required this.info, required this.characters});
+  const CharacterList({required this.info, required this.characters});
 
   factory CharacterList.fromJson(Map<String, dynamic> json) {
-    return CharacterList._(
+    return CharacterList(
       info: PageInfo.fromJson(json['info']),
       characters: (json['results'] as List<dynamic>)
           .map((e) => Character.fromJson(e))
@@ -74,7 +74,7 @@ class CharacterList extends Equatable {
   }
 
   CharacterList copyWith({PageInfo? info, List<Character>? characters}) {
-    return CharacterList._(
+    return CharacterList(
         info: info ?? this.info, characters: characters ?? this.characters);
   }
 

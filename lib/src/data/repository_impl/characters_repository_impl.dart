@@ -36,3 +36,5 @@ class CharactersRepositoryImpl implements CharactersRepository {
         exception: ExceptionMessages.NO_INTERNET_CONNECTION));
   }
 }
+
+
