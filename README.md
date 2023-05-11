@@ -41,4 +41,5 @@ fluttertoast (exception notification as side-effect)
 freezed (aid union classes and inheritance)
 internet_connection_checker (internet connection checks)
 provider (snapshot cache)
+Mockito (Test)
 
