@@ -31,6 +31,7 @@ Thank you for the opportunity to contribute to this project it was fun and excit
 4. Handled internet connection availability checks
 5. Used functional programming concepts to properly propagate my exception handling 
 6. Implemented infinity scroll.
+7. Implementation of Test to repository
 
 ## Packages used
 flutter_screenutil (Screen Size)
